@@ -1,0 +1,41 @@
+custom-article {
+    display: block;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+
+  custom-article h2 {
+    color: #333;
+    margin-top: 0;
+  }
+
+  custom-article p {
+    color: #666;
+    line-height: 1.6;
+  }
+
+  custom-article .meta {
+    display: flex;
+    justify-content: space-between;
+    color: #999;
+    font-size: 0.9em;
+  }
+
+.custom-article.status-red { border-color: red; }
+.custom-article.status-orange { border-color: orange; }
+.custom-article.status-green { border-color: green; }
+.custom-article.status-blue { border-color: blue; }
+.custom-article.status-default { border-color: gray; }
+
+.custom-article .status {
+  font-weight: bold;
+}
+
+.status-red .status { color: red; }
+.status-orange .status { color: orange; }
+.status-green .status { color: green; }
+.status-blue .status { color: blue; }
+.status-default .status { color: gray; }
